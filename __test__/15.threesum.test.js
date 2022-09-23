@@ -14,7 +14,7 @@ test('[-1,0,1,2,-1,-4]需要被去重',()=>{
 function testTimeout (cb) {
     setTimeout(()=>{
         cb(null, 'aaa')
-    },5000)
+    },1000)
 }
 test('回调异步', done => {
     const callback = (error,data) => {
